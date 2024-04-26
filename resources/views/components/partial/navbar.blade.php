@@ -42,9 +42,9 @@
                             <a href="#"
                                 class="text-gray-300 hover:bg-sky-700 hover:text-white hover:font-bold rounded-md px-3 py-2 text-sm font-medium">Struktur
                                 Organisasi</a>
-                            <a href="/daftar-tim-inovasi"
-                                class="text-gray-300 hover:bg-sky-700 hover:text-white hover:font-bold rounded-md px-3 py-2 text-sm font-medium">Daftar
-                                Tim Inovasi</a>
+                            <a href="/innovation-list"
+                                class="text-gray-300 hover:bg-sky-700 hover:text-white hover:font-bold rounded-md px-3 py-2 text-sm font-medium">Innovation
+                                List</a>
                             <a href="#"
                                 class="text-gray-300 hover:bg-sky-700 hover:text-white hover:font-bold rounded-md px-3 py-2 text-sm font-medium">Berita</a>
                             <a href="#"
@@ -66,7 +66,7 @@
                 <a href="#"
                     class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Struktur
                     Organisasi</a>
-                <a href="/daftar-tim-inovasi"
+                <a href="/innovation-list"
                     class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Daftar
                     Tim Inovasi</a>
                 <a href="#"
