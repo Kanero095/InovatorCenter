@@ -13,8 +13,6 @@ return new class extends Migration
     {
         Schema::create('inovasis', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
-
             $table->string('nameInovasi');
             $table->text('imgLogo');
             $table->text('deskripsi');
@@ -23,6 +21,7 @@ return new class extends Migration
             $table->string('instagram');
             $table->string('facebook');
             $table->string('other');
+            $table->timestamps();
         });
     }
 

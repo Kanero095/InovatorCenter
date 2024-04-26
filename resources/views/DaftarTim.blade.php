@@ -8,11 +8,12 @@
 
         <div class="flex flex-wrap m-auto md:flex-row md:m-0">
             {{-- content here --}}
-            @foreach ($tims as $tim)
+            @foreach($teams as $tim)
                 <div class="border border-cyan-400 rounded-lg mx-1 my-2 md:mx-4 md:max-w-sm md:w-full">
                     <div class="box-border p-2 mt-2">
+                        {{ $tim->nameInovasi }}
                         <img class="max-h-32 w-auto border border-cyan-500 m-auto rounded-xl scale-90 md:scale-100"
-                            src="{{ asset('img/ImageTim/' . $tim->imgLogo) }}" alt="{{ $tim->nameinovasi }}">
+                            src="{{ asset('/img/ImageTim/' . $tim->imgLogo) }}" alt="{{ $tim->nameinovasi }}">
                         <p class="text-xs md:text-base text-justify my-2">
                             {{ $tim->deskripsi }}
                         </p>

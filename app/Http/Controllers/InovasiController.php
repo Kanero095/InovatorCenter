@@ -12,9 +12,14 @@ class InovasiController extends Controller
      */
     public function index()
     {
-        $tims = inovasi::all();
-        dd($tims);
-        return view('DaftarTim', compact('tims'));
+        $teams = inovasi::all();
+        return view('DaftarTim', compact('teams'));
+    }
+
+
+    public function DaftarTim()
+    {
+
     }
 
     /**
