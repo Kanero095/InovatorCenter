@@ -16,7 +16,7 @@
             Innovation Logo : <i class="text-xs">.jpg .png</i></label>
         <input
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-sky-100 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
-            aria-describedby="imgLogo_help" name="imgLogo" id="imgLogo" type="file" accept="image/*">
+            aria-describedby="imgLogo_help" name="imgLogo" id="imgLogo" type="file" accept="image/*" required>
     </div>
 
     {{-- deskripsi inovasi --}}
@@ -38,7 +38,7 @@
             Team Image : <i class="text-xs">.jpg .png</i></label>
         <input
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-sky-100 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
-            aria-describedby="imgTim_help" name="imgTim" id="imgTim" type="file" accept="image/*">
+            aria-describedby="imgTim_help" name="imgTim" id="imgTim" type="file" accept="image/*" required>
     </div>
 
     {{-- Link --}}

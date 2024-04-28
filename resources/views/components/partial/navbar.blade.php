@@ -38,7 +38,7 @@
                         <div class="flex space-x-4" role="none">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <a href="/home"
-                                class="text-gray-300 hover:bg-sky-700 hover:text-white hover:font-bold rounded-md px-3 py-2 text-sm font-medium">Dashboard</a>
+                                class="text-gray-300 hover:bg-sky-700 hover:text-white hover:font-bold rounded-md px-3 py-2 text-sm font-medium">Home</a>
                             <a href="#"
                                 class="text-gray-300 hover:bg-sky-700 hover:text-white hover:font-bold rounded-md px-3 py-2 text-sm font-medium">Struktur
                                 Organisasi</a>
@@ -62,7 +62,7 @@
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a href="/home" role="menuitem" tabindex="-1" id="menu-item-0"
                     class="bg-gray-900 text-gray-300 block rounded-md px-3 py-2 text-base font-medium"
-                    aria-current="page">Dashboard</a>
+                    aria-current="page">Home</a>
                 <a href="#"
                     class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Struktur
                     Organisasi</a>

@@ -1,7 +1,10 @@
 <x-layout>
     <title>Home</title>
 
-    <a href="#" class="px-3 pt-1 text-xs text-sky-600">Inovator Center > Dashboard</a>
+    <div class="pl-3">
+        <a href="/" class="text-xs text-sky-600">Inovator Center ></a>
+        <a href="/home" class="text-xs text-sky-600">Home</a>
+    </div>
 
     <div class="box-content bg-sky-100 p-5">
         <div class=" container mx-auto px-4 py-2">
