@@ -17,6 +17,8 @@ Route::get('/innovation-list', [InovasiController::class,'index']);
 Route::get('innovation/read/{id}', [InovasiController::class,'read'])->name('innovation.read');
 Route::get('/admin/create/inovasi/zero_$95', [InovasiController::class,'create'])->name('create');
 
+Route::get('/home', [InovasiController::class,'smallIndex']);
+
 // Backend
 Route::post('/', [BackendController::class,'insert'])->name('insertAdmin');
 

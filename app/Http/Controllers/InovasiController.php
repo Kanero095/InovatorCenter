@@ -14,6 +14,13 @@ class InovasiController extends Controller
         return view('DaftarTim', compact(['teams']));
     }
 
+    // Show Innovation Data di Home
+    public function smallIndex()
+    {
+        $teams = inovasi::paginate(4);
+        return view('home', compact(['teams']));
+    }
+
     // Create Innovation
     public function create()
     {
