@@ -6,22 +6,25 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InovasiController;
 
 Route::get('/', function () {
-    return view('home');
+    return redirect('/home');
 });
 Route::get('/home', function () {
     return view('home');
 });
 
-// Inovasi
-Route::get('/innovation-list', [InovasiController::class,'index']);
+// Innovation teams
+Route::get('/innovation-teams', [InovasiController::class,'index']);
 Route::get('innovation/read/{id}', [InovasiController::class,'read'])->name('innovation.read');
-Route::get('/admin/create/inovasi/zero_$95', [InovasiController::class,'create'])->name('create');
+Route::get('/admin/create/inovasi_team/zero_inovator', [InovasiController::class,'create']);
 
 Route::get('/home', [InovasiController::class,'smallIndex']);
 
 // Backend
-Route::post('/', [BackendController::class,'insert'])->name('insertAdmin');
+Route::post('/admin/create/inovasi_team/zero_inovator', [BackendController::class,'insert'])->name('insertAdmin');
+Route::post('/admin/create/inovasi_list/zero_inovator',[BackendController::class,'insert2'])->name('insertAdmin2');
 
-// Route::get('/home', [PageController::class, 'home']);
-// Route::get('/daftar-tim-inovasi', [PageController::class, 'inovasi']);
+// Innovation
+Route::get('/innovations',[InovasiController::class,'index_inno']);
+Route::get('/admin/create/inovasi_list/zero_inovator', [InovasiController::class,'create_innovation']);
+
 

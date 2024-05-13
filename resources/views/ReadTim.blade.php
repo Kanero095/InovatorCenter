@@ -2,11 +2,17 @@
 
     <title>Tim {{ $teams->nameInovasi }}</title>
 
+    <div class="pl-3">
+        <a href="/" class="text-xs text-sky-600">Inovator Center ></a>
+        <a href="/innovation-teams" class="text-xs text-sky-600">Innovation Teams ></a>
+        <a class="text-xs text-sky-600">{{ $teams->nameInovasi }}</a>
+    </div>
+
     <div class="box-content bg-sky-100 p-1">
         <div class="box-border p-2 mt-1">
             {{-- image logo --}}
             <img class="max-h-80 w-auto border border-cyan-500 m-auto rounded-xl scale-90 md:scale-100"
-                src="{{ asset('/img/LogoTim/' . $teams->imgLogo) }}" alt="{{ $teams->nameinovasi }}">
+                src="{{ asset('/img/LogoTim/' . $teams->imgLogo) }}" alt="{{ $teams->nameInovasi }}">
 
             {{-- Innovation Name --}}
             <h1 class="font-bold text-2xl text-center md:mt-2 md:text-4xl">

@@ -20,7 +20,7 @@ class inovasi extends Model
     }
 
     protected $fillable = [
-        'nameInovasi',
+        'nameTeam',
         'imgLogo',
         'deskripsi',
         'imgTim',

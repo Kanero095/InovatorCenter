@@ -11,16 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('inovasis', function (Blueprint $table) {
+        Schema::create('innovation_lists', function (Blueprint $table) {
             $table->id();
-            $table->string('nameTeam');
-            $table->text('imgLogo');
-            $table->text('deskripsi');
-            $table->text('imgTim');
-            $table->string('web');
-            $table->string('instagram');
-            $table->string('facebook');
-            $table->string('other');
+            $table->string('DateCreated');
+            $table->string('nameInnovation');
+            $table->string('nameTeamInnovation');
+            $table->text('descriptionInnovation');
+            $table->text('imgInnovation');
             $table->timestamps();
         });
     }
@@ -30,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('inovasis');
+        Schema::dropIfExists('innovation_lists');
     }
 };
