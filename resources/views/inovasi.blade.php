@@ -17,15 +17,15 @@
                 <div class="w-56 border border-cyan-400 rounded-lg mx-1 my-2 md:mx-4 md:max-w-sm md:w-full">
                     <div class="box-border p-2 mt-2">
                         <img class="max-h-32 w-auto border border-cyan-500 m-auto rounded-xl scale-90 md:scale-100"
-                            src="{{ asset('/img/LogoTim/' . $innnovation->imgInnovation) }}"
-                            alt="{{ $innnovation->nameInovasi }}">
+                            src="{{ asset('/img/Innovations/' . $innnovation->imgInnovation) }}"
+                            alt="{{ $innnovation->nameInnovation }}">
                         <p class="mt-3 font-bold text-center hover:underline hover:decoration-sky-500/30">
                             <a href="{{ route('innovation.read', $innnovation->id) }}">
-                                {{ $innnovation->nameInovasi }}
+                                {{ $innnovation->nameInnovation }}
                             </a>
                         </p>
                         <p class="text-xs md:text-base text-justify my-2">
-                            {{ Str::limit($innnovation->deskripsi, 150) }}
+                            {{ Str::limit($innnovation->descriptionInnovation, 150) }}
                             <a href="{{ route('innovation.read', $innnovation->id) }}"
                                 class="px-2 text-white bg-sky-400 rounded-xl hover:text-sky-400 hover:bg-sky-700">
                                 More
