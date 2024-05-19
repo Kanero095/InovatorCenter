@@ -3,7 +3,7 @@
 
     <div class="pl-3">
         <a href="/" class="text-xs text-sky-600">Inovator Center ></a>
-        <a href="/innovation-list" class="text-xs text-sky-600">Innovation List</a>
+        <a href="/innovations" class="text-xs text-sky-600">Innovation List</a>
     </div>
 
     <div class="box-content bg-sky-100 p-1">

@@ -13,7 +13,7 @@
 
             <div class="border border-sky-400 rounded-lg p-2 mt-8">
                 <p class="font-bold text-lg">
-                    --> Innovation List
+                    >> Innovation List
                 </p>
                 <div class="flex flex-wrap m-auto md:flex-row md:m-0 overflow-x-scrool">
                     {{-- content here --}}
