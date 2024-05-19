@@ -49,4 +49,11 @@ class InovasiController extends Controller
     {
         return view('admin.create_innovations');
     }
+
+    // show innovation list in Home
+    public function smallIndex_inno()
+    {
+        $innovations = innovation_list::paginate(8);
+        return view('home', compact(['innovations']));
+    }
 }
